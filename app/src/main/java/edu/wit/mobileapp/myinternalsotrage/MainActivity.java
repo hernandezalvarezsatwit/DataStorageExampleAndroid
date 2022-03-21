@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String string = "Sample written data\n";
         FileOutputStream outputStream;
 
-        context = this;
+        context = getApplicationContext();
         text = findViewById(R.id.text);
         readDataBtn = findViewById(R.id.ReadBtn);
 
