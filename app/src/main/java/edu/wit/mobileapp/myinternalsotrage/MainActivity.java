@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             //pass file name
             outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
-            //Write as bytes
+            //Write as bytes.
             outputStream.write(string.getBytes());
             //Close right away
             outputStream.close();
